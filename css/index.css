@@ -1,0 +1,47 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-position: center 0;
+    text-align: center;
+    overflow: hidden;
+}
+#title {
+	margin-top: 100px;
+    text-align: center;
+    color: white;
+    font: bold 50px cursive;
+}
+#main {
+	width: 560px;
+    margin: 50px auto;
+}
+#choose{
+	color: white;
+	font: bold 25px cursive;
+}
+#difficult {
+	margin: 10px;
+}
+.text{
+	color: white;
+}
+input:checked + label{
+    color: rgb(255,202,8);
+}
+
+.button_begin {
+	margin: 50px;
+	width: 150px;
+	font: bold 30px cursive;
+	background-color: white;
+    color: #3684be;
+    border-radius: 10px;
+    cursor:pointer 
+}
+.button_begin:hover {
+	background-color: rgb(255,202,8);
+    color: black;
+}
+footer{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,77 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-position: center 0;
+}
+#title {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font: bold 50px cursive;
+}
+#game{
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: blue;
+}
+#game>img{display: none}
+canvas{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+#menu{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0,211,225,0.5);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: -180px;
+    box-shadow: aliceblue 0 0 10px;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -ms-transition: all 1s ;
+    -o-transition: all 1s ;
+    transition: all 1s ;
+}
+#menu:hover{
+    width: 380px;
+}
+#text{
+    width: 20px;
+    height: 100%;
+    color: white;
+    position: absolute;
+    left:3px;
+    line-height: 50px;
+}
+#choose,#difficult{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.button{
+    background-color: white;
+    color: #3684be;
+    border-radius: 10px;
+}
+#replay{
+    position: absolute;
+    right:10px;
+    top:20px;
+    /*width: 100px;*/
+    font: bold 20px cursive;
+    cursor:pointer 
+}
+#guaQia{
+    width: 50px;
+}
+#content {
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+}
