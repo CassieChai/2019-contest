@@ -43,6 +43,6 @@ public
 │   ├── boxGame.js  # 对应游戏网页的js文件
 │   └── mapdata100.js  # 每一关的初始化坐标
 └── css  # 样式表
-│   ├── index.js  # 对应入口网页的css文件
-│   └── style.js  # 对应游戏网页的css文件
+    ├── index.js  # 对应入口网页的css文件
+    └── style.js  # 对应游戏网页的css文件
 ```
